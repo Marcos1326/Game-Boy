@@ -256,23 +256,23 @@ body{
 
 
 #botn-L{
-    background-color: #1B1B1B;
+    background-color: #e22a2a;
     width: 65px;
     height: 65px;
     border-radius: 100%;
-    box-shadow: 0 0 1px 2px #000; 
-    border: 2px rgb(26, 26, 26) solid;
-    border-top: 5px rgb(83, 83, 83) solid;
+    box-shadow: 0 0 1px 2px rgb(105, 13, 13); 
+    border: 2px rgb(145, 18, 18) solid;
+    border-top: 5px rgb(230, 138, 138) solid;
 }
 
 #botn-R{
-    background-color: #1B1B1B;
+    background-color: #e22a2a;
     width: 65px;
     height: 65px;
     border-radius: 100%;
-    box-shadow: 0 0 1px 2px #000; 
-    border: 2px rgb(26, 26, 26) solid;
-    border-top: 5px rgb(83, 83, 83) solid;
+    box-shadow: 0 0 1px 2px rgb(105, 13, 13); 
+    border: 2px rgb(145, 18, 18) solid;
+    border-top: 5px rgb(230, 138, 138) solid;
 }
 /* Fin botones */
 
