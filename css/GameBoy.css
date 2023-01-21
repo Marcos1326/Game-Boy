@@ -1,5 +1,4 @@
 body{
-    background-color: blanchedalmond;
     margin: 0;
 }
 
@@ -15,11 +14,13 @@ body{
 
 /* Inicio fondo */
 #fondo{
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 95vh;
     width: 40vw;
+    border-radius: 100%;
 }
 /* Fin fondo  */
 
@@ -29,37 +30,101 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 10fr 10fr;
     width: 540px;
-    height: 850px;
+    height: 860px;
     border-radius: 30px 30px 100px 30px;
     background-color: #d5ced5;
     box-shadow:
         0px 0px 1px #0006 inset,
-        -7px -6px 2px #0003 inset;
+        -7px -6px 1px #0003 inset;
+    border: 1px solid black;
 }
 /* Fin carcasa */
+
+/* Inicio Top carcasa */
+#carcasa-top{
+    display: grid;
+    grid-template-columns:1fr 5fr 1fr ;
+    grid-template-rows: 5fr 1fr;
+}
+
+.small-line{
+    display: flex;
+    justify-content: center;
+}
+
+.small-line-2{
+    background-color: rgb(173, 173, 173);
+    width: 5px;
+    height: 100%;
+}
+
+#grand-line{
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / 4;
+    height: 100%;
+    border-right: 7px solid rgb(163, 163, 163);
+}
+/* Fin Top carcasa */
 
 /* Inicio pantalla */
 #carcasa-mid{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #mid-pant{
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: #717286;
     width: 450px;
     height: 350px;
     border-radius: 20px 20px 100px 20px;
+    border: 2px solid black;
+    
+}
+
+#bat{
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    width: 90px;
+    height: 50px;
+}
+
+#luz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#luz-color{
+    background-color: #d32202;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    box-shadow:
+        1px 1px 1px rgba(61, 61, 61, 0.4) inset,
+        -1px -1px 1px rgba(61, 61, 61, 0.4) inset;
+}
+
+#bat-txt{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
 }
 
 #pant{
-    background-color: grey;
+    background-color: #0a0a0a;
     width: 275px;
     height: 275px;
+    border: 1px solid black;
+    box-shadow:
+    3px 4px 1px #0006 inset,
+    -2px -2px 1px #0003 inset;
 }
 /* Final pantalla */
 
@@ -83,10 +148,16 @@ body{
     justify-content: end;
     align-items: flex-start;
     gap: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
     height: 40%;
 }
 /* Final carcasa-bot  */
+
+/* Inicio Logo */
+#logo{
+    width: 150px;
+}
+/* Fin Logo  */
 
 /* Inicio cruz */
 #cruz{
@@ -163,8 +234,8 @@ body{
     justify-content: end;
     align-items: center;
     height: 200px;
-    width: 300px;
-    padding-right: 0px;
+    width: 280px;
+    padding-right:0px;
 }
 
 #fondo-botn{
