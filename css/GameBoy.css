@@ -129,19 +129,6 @@ body{
     3px 4px 2px #0006 inset,
     -2px -2px 8px #0003 inset;
 }
-
-#pant:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #9ca04c;
-    width: 275px;
-    height: 275px;
-    border: 1px solid black;
-    box-shadow:
-    3px 4px 2px #0006 inset,
-    -2px -2px 8px #0003 inset;
-}
 /* Final pantalla */
 
 /* Inicio carcasa-bot  */
