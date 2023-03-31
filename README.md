@@ -18,6 +18,7 @@ La estructura base para la consola a la hora de empezar a añadir elementos basi
 ![image](https://user-images.githubusercontent.com/114586863/213885607-406f8142-152e-4b72-801e-f15c0b5328a7.png)
 
 <hr>
+
 ## License
 Este proyecto ha sido creado bajo una Licencia MIT. Para obtener más información sobre los detalles, vaya a LICENSE.md.
 
